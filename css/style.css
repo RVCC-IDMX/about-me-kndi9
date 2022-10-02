@@ -1,0 +1,19 @@
+body {
+    font-family: Raleway;
+    font-size: 1em;
+    background-color: #FFFD95;
+    color: #2123FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Inter;
+    background-color: #EDBA61;
+    color: #59595f;
+}
+
+header, footer{
+    font-family: Inter;
+    font-weight: bold;
+    text-align: center;
+}
+
