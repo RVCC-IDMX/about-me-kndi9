@@ -7,13 +7,35 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Inter;
+    border: 2px solid #2123FF;
     background-color: #EDBA61;
-    color: #59595f;
+    color: #2123FF;
 }
 
 header, footer{
     font-family: Inter;
     font-weight: bold;
     text-align: center;
+}
+
+#hero, footer {
+    font-family: Raleway;
+    font-size: 1.5em;
+    background-color: #E8E687;
+    border: 1px solid #2123FF;
+    color: #2123FF;
+    text-align:center;
+}
+
+#bio {
+    font-family: Raleway;
+    font-size: 1em;
+    background-color: #FFFD95;
+    color: #2123FF;
+    text-align: center;
+}
+
+#hero img {
+    width: 300px;
 }
 
