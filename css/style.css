@@ -7,9 +7,17 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Inter;
-    border: 2px solid #2123FF;
-    background-color: #EDBA61;
+    background-color: #FFFD95;
     color: #2123FF;
+}
+
+h1 {
+    background-color: #EDBA61
+}
+
+h2 {
+    text-align: center;
+
 }
 
 header, footer{
@@ -35,6 +43,29 @@ header, footer{
     text-align: center;
 }
 
+#bio p{
+    font-size: 18px;
+}
+
+#hobbies ul{
+    font-size: 18px;
+}
+
+#hobbies ul li:nth-child(2) {
+    color: green;
+}
+
+#hobbies ul li:nth-child(3) {
+    color: red
+}
+
+#hobbies ul li:nth-child(4) {
+    color: black
+}
+
+#hobbies ul li:nth-child(5) {
+    color: blueviolet
+}
 #hero img {
     width: 300px;
 }
