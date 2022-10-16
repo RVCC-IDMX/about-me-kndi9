@@ -58,6 +58,11 @@ header, footer{
 }
 
 /* Hobbies */
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #hobbies ul{
     font-size: 18px;
@@ -128,4 +133,19 @@ header, footer{
     box-shadow: 2px 2px 2px rgba(0,0,0,.75);
     border-top-right-radius: .5em;
     border-bottom-left-radius: .5em;
+}
+
+@media screen and (min-width: 60em) {
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;}
+    
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
 }
