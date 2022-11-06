@@ -111,6 +111,10 @@ footer {
 
 /* Video */
 
+/* Contact Form */
+#formElements {
+    display:grid;
+}
 
 /* Literature */
 #lit {
