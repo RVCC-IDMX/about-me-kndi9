@@ -28,6 +28,16 @@ h2 {
     padding: .5em;
 }
 
+h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #EDBA61;
+    padding: .5em;
+    border: 2px solid #2123FF;
+    border-radius: 2em;
+}
+
 header,
 footer {
     font-family: Inter;
@@ -113,7 +123,65 @@ footer {
 
 /* Contact Form */
 #formElements {
-    display:grid;
+    display: grid;
+    row-gap: .5em;
+}
+
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+fieldset {
+    border: 6px outset #2123FF;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 3em;
+}
+
+#contact label{
+    font-weight: bold;
+}
+
+
+#contact input,
+#contact textarea,
+#contact select,
+#contact button {
+    padding: .5em;
+    font-size: 1rem;
+    border: 1.5px solid #2123FF;
+}
+
+legend {
+    background-color: #EDBA61;
+    color: #2123FF;
+    font-size: 20px;
+    padding: .5em;
+    border: 2px solid #2123FF;
+    font-weight: bold;
+    border-radius: 2em;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#contact button {
+    background-color: #EDBA61;
+    color: #2123FF;
+    border: 2px solid #2123FF;
+    max-width: 400px;
+    justify-self: center;
+    width: 50%;
+    font-weight: bold;
+    border-radius: 3em;
 }
 
 /* Literature */
@@ -150,11 +218,12 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
-iframe {
+    iframe {
         width: 1px;
         min-width: 100%;
     }
 }
+
 @media screen and (min-width: 60em) {
     figure {
         display: grid;
