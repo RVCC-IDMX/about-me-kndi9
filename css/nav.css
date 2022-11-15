@@ -41,8 +41,8 @@ main {
 }
 
 .logo img {
-    height: 4vw;
-    width: 4vw;
+    height: 3rem;
+    width: 3rem;
 }
 
 .logo h1 {
@@ -51,14 +51,35 @@ main {
 
 /* navigation list */
 
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+}
+
 
 /*  
  style all a tags in header 
  and then on hover
 */
 
+.navbar-links a {
+    color: blue;
+    background-color: lightblue;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block
+}
 
-
+.navbar-links a:hover,
+.navbar-links a:focus {
+    background-color: #EDBA61;
+    color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+}
 
 
 /* 
