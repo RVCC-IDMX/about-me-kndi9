@@ -88,21 +88,7 @@ footer {
     font-size: 18px;
 }
 
-#hobbies ul li:nth-child(2) {
-    color: green;
-}
 
-#hobbies ul li:nth-child(3) {
-    color: red
-}
-
-#hobbies ul li:nth-child(4) {
-    color: black
-}
-
-#hobbies ul li:nth-child(5) {
-    color: blueviolet
-}
 
 /* Gallery */
 #gallery {
@@ -219,6 +205,7 @@ legend {
     border-top-right-radius: .5em;
     border-bottom-left-radius: .5em;
 }
+
 
 @media screen and (max-width: 960px) {
     iframe {
