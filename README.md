@@ -50,7 +50,7 @@ The respective hex codes were:
 
 #2E2E2E
 
-#1f1f1f
+#1F1F1F
 
 #38004F
 
