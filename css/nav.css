@@ -49,6 +49,7 @@ main {
 .logo img {
     height: 6rem;
     width: 6rem;
+    padding: 5px;
 }
 
 .logo h1 {
