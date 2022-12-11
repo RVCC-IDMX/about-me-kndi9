@@ -9,8 +9,6 @@ html {
  header is at top
 */
 
-/* try */
-*,
 *::before,
 *::after {
     box-sizing: border-box;
