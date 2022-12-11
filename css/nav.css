@@ -82,7 +82,7 @@ main {
 
 .navbar-links a:hover,
 .navbar-links a:focus {
-    background-color: purple;
+    background-color: #800080;
     color: whitesmoke;
     border-radius: 10px;
     outline: none;
