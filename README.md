@@ -8,7 +8,7 @@ This project was a semester long process of creating a website that serves as a 
 ## Navigation Bar
 We learned how to make a hamburger menu navigation bar in mobile and have it integrate into the header on desktop.
 
-This serves to smoothly traverse to sections of the code such as bio, gallery, blog, and contact me informatoin.
+This serves to smoothly traverse to sections of the code such as bio, gallery, blog, and contact me information.
 
 ## Biography
 
