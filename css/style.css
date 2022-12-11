@@ -58,7 +58,10 @@ footer {
 }
 
 #hero img {
+    border-radius: 20rem;
+    border: 10px solid purple;
     width: 300px;
+    margin-top: 30px;
 }
 
 /* Bio Section */
