@@ -18,7 +18,7 @@ h6 {
 
 h1 {
     background-color: #38004F;
-    border: 2px solid purple;
+    border: 2px solid #800080;
 }
 
 h2 {
@@ -34,7 +34,7 @@ h3 {
     font-weight: bold;
     background-color: #38004F;
     padding: .5em;
-    border: 2px solid purple;
+    border: 2px solid #800080;
     border-radius: 2em;
 }
 
@@ -52,14 +52,14 @@ footer {
     font-family: Raleway;
     font-size: 1.5em;
     background-color: #2E2E2E;
-    border: 1px solid purple;
+    border: 1px solid #800080;
     color: white;
     text-align: center;
 }
 
 #hero img {
     border-radius: 20rem;
-    border: 10px solid purple;
+    border: 10px solid #800080;
     width: 300px;
     margin-top: 30px;
 }
@@ -106,7 +106,7 @@ footer {
 
 /* Gallery */
 #gallery {
-    border: .5em solid purple;
+    border: .5em solid #800080;
     background-color: #2E2E2E;
     margin-bottom: 2rem;
 }
@@ -137,7 +137,7 @@ footer {
 }
 
 fieldset {
-    border: 6px outset purple;
+    border: 6px outset #800080;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 3em;
@@ -154,7 +154,7 @@ fieldset {
 #contact button {
     padding: .5em;
     font-size: 1rem;
-    border: 1.5px solid purple;
+    border: 1.5px solid #800080;
 }
 
 legend {
@@ -162,7 +162,7 @@ legend {
     color: white;
     font-size: 20px;
     padding: .5em;
-    border: 2px solid purple;
+    border: 2px solid #800080;
     font-weight: bold;
     border-radius: 2em;
 }
@@ -179,7 +179,7 @@ legend {
 #contact button {
     background-color: #38004F;
     color: white;
-    border: 2px solid purple;
+    border: 2px solid #800080;
     max-width: 400px;
     justify-self: center;
     width: 50%;
@@ -189,7 +189,7 @@ legend {
 
 /* Literature */
 #lit {
-    border: .5em solid purple;
+    border: .5em solid #800080;
     margin-bottom: 2rem;
 }
 
@@ -204,14 +204,14 @@ legend {
 }
 
 #lit div p:nth-child(4n+1):first-letter {
-    color: purple;
+    color: #800080;
     background-image: linear-gradient(grey, white);
     float: left;
     font-size: 3em;
     padding: .2em;
     margin-right: .2em;
     line-height: .5em;
-    border: 4px outset purple;
+    border: 4px outset #800080;
     font-family: Inter;
     font-weight: bold;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, .33);
