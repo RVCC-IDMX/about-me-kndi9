@@ -47,18 +47,28 @@ We created a footer with our name and copyright information.
 I decided to use a purple and dark color contrast. I found that this design is becoming more popular as a result of dark mode. I think it looks soothing on the eyes and it passes contrast ratio tests.
 
 The respective hex codes were:
+
 #2E2E2E
+
 #1f1f1f
+
 #38004F
+
 #800080
+
 #FFFFFF
 
 # Citations
 https://css-tricks.com/guide-svg-animations-smil/#why-use-svg-animations - indepth SVG animation information
+
 https://www.adobe.com/creativecloud/file-types/image/vector/svg-file.html - SVG animation information learned here
+
 https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animate - SVG animation code was learned here
+
 https://developer.mozilla.org/en-US/ - overall used for any CSS questions
+
 https://www.youtube.com/watch?v=SIzi9z8mrTk - SVG for hamburger menu taken from this video
+
 https://www.w3schools.com/ - often used as a resource
 
 # License 
