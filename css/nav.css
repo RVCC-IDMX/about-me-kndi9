@@ -24,7 +24,7 @@ main {
 /* navbar */
 
 .navbar {
-    background-color: lightblue;
+    background-color: darkgrey;
     color: white;
     display: flex;
     flex-direction: column;
@@ -64,8 +64,8 @@ main {
 */
 
 .navbar-links a {
-    color: blue;
-    background-color: lightblue;
+    color: white;
+    background-color: darkgrey;
     font-size: 1.5rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -75,7 +75,7 @@ main {
 
 .navbar-links a:hover,
 .navbar-links a:focus {
-    background-color: #EDBA61;
+    background-color: purple;
     color: whitesmoke;
     border-radius: 10px;
     outline: none;
@@ -87,3 +87,14 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+@media screen and (min-width: 60rem) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}

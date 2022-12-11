@@ -1,3 +1,1 @@
-# 
-
-Karun Dani(student) 
+# K D [![Netlify Status](https://api.netlify.com/api/v1/badges/5ab1d7ec-277e-4e6f-a292-721caa2da7fe/deploy-status)](https://app.netlify.com/sites/about-me-kndi9/deploys)

@@ -1,8 +1,8 @@
 body {
     font-family: Raleway;
     font-size: 1em;
-    background-color: #FFFD95;
-    color: #2123FF;
+    background-color: #1F1F1F;
+    color: white;
 }
 
 h1,
@@ -12,19 +12,19 @@ h4,
 h5,
 h6 {
     font-family: Inter;
-    background-color: #FFFD95;
-    color: #2123FF;
+    background-color: #1F1F1F;
+    color: white;
 }
 
 h1 {
-    background-color: #EDBA61;
-    border: 2px solid #2123FF;
+    background-color: #38004F;
+    border: 2px solid purple;
 }
 
 h2 {
     text-align: center;
     font-weight: bold;
-    background-color: #EDBA61;
+    background-color: #38004F;
     padding: .5em;
 }
 
@@ -32,9 +32,9 @@ h3 {
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    background-color: #EDBA61;
+    background-color: #38004F;
     padding: .5em;
-    border: 2px solid #2123FF;
+    border: 2px solid purple;
     border-radius: 2em;
 }
 
@@ -51,9 +51,9 @@ footer {
 footer {
     font-family: Raleway;
     font-size: 1.5em;
-    background-color: #E8E687;
-    border: 1px solid #2123FF;
-    color: #2123FF;
+    background-color: #2E2E2E;
+    border: 1px solid purple;
+    color: white;
     text-align: center;
 }
 
@@ -65,8 +65,8 @@ footer {
 #bio {
     font-family: Raleway;
     font-size: 1em;
-    background-color: #FFFD95;
-    color: #2123FF;
+    background-color: #1F1F1F;
+    color: white;
     text-align: center;
 }
 
@@ -103,8 +103,8 @@ footer {
 
 /* Gallery */
 #gallery {
-    border: .5em solid #2123FF;
-    background-color: #EDBA61;
+    border: .5em solid purple;
+    background-color: #2E2E2E;
     margin-bottom: 2rem;
 }
 
@@ -134,7 +134,7 @@ footer {
 }
 
 fieldset {
-    border: 6px outset #2123FF;
+    border: 6px outset purple;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 3em;
@@ -151,15 +151,15 @@ fieldset {
 #contact button {
     padding: .5em;
     font-size: 1rem;
-    border: 1.5px solid #2123FF;
+    border: 1.5px solid purple;
 }
 
 legend {
-    background-color: #EDBA61;
-    color: #2123FF;
+    background-color: #38004F;
+    color: white;
     font-size: 20px;
     padding: .5em;
-    border: 2px solid #2123FF;
+    border: 2px solid purple;
     font-weight: bold;
     border-radius: 2em;
 }
@@ -174,9 +174,9 @@ legend {
 }
 
 #contact button {
-    background-color: #EDBA61;
-    color: #2123FF;
-    border: 2px solid #2123FF;
+    background-color: #38004F;
+    color: white;
+    border: 2px solid purple;
     max-width: 400px;
     justify-self: center;
     width: 50%;
@@ -186,7 +186,7 @@ legend {
 
 /* Literature */
 #lit {
-    border: .5em solid #2123FF;
+    border: .5em solid purple;
     margin-bottom: 2rem;
 }
 
@@ -201,14 +201,14 @@ legend {
 }
 
 #lit div p:nth-child(4n+1):first-letter {
-    color: #2123FF;
-    background-image: linear-gradient(white, #EDBA61);
+    color: purple;
+    background-image: linear-gradient(grey, white);
     float: left;
     font-size: 3em;
     padding: .2em;
     margin-right: .2em;
     line-height: .5em;
-    border: 4px outset #2123FF;
+    border: 4px outset purple;
     font-family: Inter;
     font-weight: bold;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, .33);
