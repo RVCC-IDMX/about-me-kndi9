@@ -122,6 +122,9 @@ such that no text wraps
     display: none;
 }
 
+/*
+media query for mobile nav bar navigation
+*/
 @media screen and (max-width: 767px) {
     .navbar .navbar-links {
         position: fixed;
@@ -150,6 +153,9 @@ such that no text wraps
     }
 }
 
+/*
+media query for nav bar toggle if screen is not mobile
+*/
 @media screen and (min-width: 768px) {
     #navbar-toggle {
         display: none;
