@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         navBar.classList.toggle('open');
     }
 
-    document.getElementById('navbar-toggle').addEventListener('click', function (e) {
+    document.getElementById('navbar-toggle').addEventListener('click', function () {
         toggleNav();
     });
 
