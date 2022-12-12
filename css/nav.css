@@ -8,7 +8,7 @@ html {
  get rid of padding & sizing on body so
  header is at top
 */
-
+*,
 *::before,
 *::after {
     box-sizing: border-box;
@@ -98,7 +98,7 @@ such that no text wraps
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .navbar ul {
         display: flex;
         justify-content: space-between;
