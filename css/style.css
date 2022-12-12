@@ -85,6 +85,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #2E2E2E;
+    border: solid .5em purple;
 }
 
 #hobbies ul {
@@ -132,7 +134,7 @@ fieldset {
 }
 
 /* Contact Form CSS*/
-#contact label{
+#contact label {
     font-weight: bold;
 }
 

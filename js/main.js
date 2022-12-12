@@ -1,5 +1,17 @@
+/*Java Script for Hamburger menu*/
 document.addEventListener('DOMContentLoaded', function () {
+    let navBar = document.querySelector('.navbar');
+    function toggleNav() {
+        navBar.classList.toggle('open');
+    }
+
     document.getElementById('navbar-toggle').addEventListener('click', function (e) {
-        document.querySelector('.navbar').classList.toggle('open');
+        toggleNav();
     });
+
+    document.querySelector('.navbar-links').addEventListener('click', function (e) {
+        if (e.target.nodeName === 'A') {
+            toggleNav();
+        }
+    })
 });
